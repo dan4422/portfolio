@@ -1,0 +1,101 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("/images/atl.jpg");
+  background-attachment: fixed;
+}
+
+h1 {
+  color: #173B6C;
+}
+
+section {
+  height: 100vh;
+}
+
+.name {
+  color: white;
+  margin: 0;
+}
+
+.welcome {
+  background-image: url("/images/atl.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.aboutme {
+  background-color: rgb(255,255,255);
+}
+
+
+.aboutmeline {
+  color: #173B6C;
+}
+
+.aboutButton {
+  background-color: #173B6C;
+  color: whitesmoke;
+}
+.aboutButton:hover {
+  background-color: wheat;
+}
+
+.selfie {
+  object-fit: contain;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.projects {
+  background-color: rgb(245, 248, 253);
+}
+
+
+
+.skill {
+  background-color: rgb(255,255,255);
+  height: 100vh;
+}
+
+.skills {
+  height: 8vh;
+}
+
+.contact {
+  background-color: rgb(245, 248, 253);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 20vh;
+}
+
+@media (max-width:768px) {
+  .aboutme {
+    height: 150vh;
+  }
+
+  .projects {
+    height: 150vh;
+  }
+}
+
+@media (max-width:382px) {
+  .aboutme {
+    height: 170vh;
+  }
+
+  /* .selfie {
+    display: none;
+  } */
+
+  .projects {
+    height: 170vh;
+  }
+}
