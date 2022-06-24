@@ -86,14 +86,24 @@ footer {
   }
 }
 
-@media (max-width:382px) {
+@media (max-width:450px) {
   .aboutme {
     height: 170vh;
   }
 
-  /* .selfie {
-    display: none;
-  } */
+  .selfie {
+    height: 50vh;
+  }
+
+  .projects {
+    height: 170vh;
+  }
+}
+
+@media (max-width:382px) {
+  .aboutme {
+    height: 170vh;
+  }
 
   .projects {
     height: 170vh;
