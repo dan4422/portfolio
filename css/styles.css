@@ -27,6 +27,7 @@ section {
 
 .aboutme {
   background-color: rgb(255,255,255);
+  height: 110vh;
 }
 
 
@@ -47,13 +48,13 @@ section {
   max-width: 100%;
   margin: 0;
   padding: 0;
+  border-radius: 10%;
 }
 
 .projects {
   background-color: rgb(245, 248, 253);
+  height: 130vh;
 }
-
-
 
 .skill {
   background-color: rgb(255,255,255);
@@ -76,14 +77,26 @@ footer {
   height: 20vh;
 }
 
-@media (max-width:768px) {
+@media (max-width:991px) {
+  .nav-icon {
+    position: relative;
+    left: 300px;
+    bottom: 180px;
+  }
+}
+
+@media (max-width:767px) {
   .aboutme {
-    height: 150vh;
+    height: 180vh;
   }
 
   .projects {
-    height: 150vh;
+    height: 240vh;
   }
+}
+
+@media (min-width:768) and (max-width:991px) {
+
 }
 
 @media (max-width:450px) {
@@ -96,16 +109,35 @@ footer {
   }
 
   .projects {
-    height: 170vh;
+    height: 250vh;
+  }
+  .skills-text {
+    font-size:medium;
+  }
+  .nav-icon {
+    position: relative;
+    left: 200px;
+    bottom: 180px;
   }
 }
 
 @media (max-width:382px) {
   .aboutme {
-    height: 170vh;
+    height: 200vh;
   }
 
   .projects {
-    height: 170vh;
+    height: 300vh;
   }
+
+  .skills-text {
+    font-size:small;
+  }
+
+  .nav-icon {
+    position: relative;
+    left: 160px;
+    bottom: 180px;
+  }
+
 }
