@@ -27,7 +27,7 @@ section {
 
 .aboutme {
   background-color: rgb(255,255,255);
-  height: 110vh;
+  height: 120vh;
 }
 
 
@@ -53,12 +53,12 @@ section {
 
 .projects {
   background-color: rgb(245, 248, 253);
-  height: 175vh;
+  height: 230vh;
 }
 
 .skill {
   background-color: rgb(255,255,255);
-  height: 100vh;
+  height: 125vh;
 }
 
 .skills {
@@ -77,26 +77,36 @@ footer {
   height: 20vh;
 }
 
-@media (max-width:991px) {
+@media (max-width: 1014px) {
   .nav-icon {
     position: relative;
     left: 300px;
     bottom: 180px;
   }
+  .projects {
+    height: 300vh;
+  }
+  
+}
+
+@media (max-width:795px) {
+  .aboutme {
+    height: 190vh;
+  }
+
+  .projects {
+    height: 330vh;
+  }
 }
 
 @media (max-width:767px) {
   .aboutme {
-    height: 180vh;
+    height: 190vh;
   }
 
   .projects {
-    height: 240vh;
+    height: 520vh;
   }
-}
-
-@media (min-width:768) and (max-width:991px) {
-
 }
 
 @media (max-width:450px) {
@@ -109,7 +119,7 @@ footer {
   }
 
   .projects {
-    height: 250vh;
+    height: 550vh;
   }
   .skills-text {
     font-size:medium;
@@ -127,7 +137,7 @@ footer {
   }
 
   .projects {
-    height: 300vh;
+    height: 600vh;
   }
 
   .skills-text {
